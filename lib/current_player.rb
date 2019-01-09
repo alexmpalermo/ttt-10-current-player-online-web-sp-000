@@ -8,11 +8,11 @@ def turn_count(board)
   
 end
 end
-counter.length
+counter
 end
 
 def current_player(board)
-  turn_count(board)
+  turn_count(board).length
   if turn_count(board).even?
     puts "X"
   else
